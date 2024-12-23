@@ -48,12 +48,20 @@ module.exports = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+  			'primary-black': 'var(--primary-black)',
+  			'secondary-black': 'var(--secondary-black)',
+  			'accent-red': 'var(--accent-red)',
+  			'text-primary': 'var(--text-primary)',
+  			'text-secondary': 'var(--text-secondary)',
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
+  		},
+  		fontFamily: {
+  			'dot-matrix': ['var(--font-dot-matrix)', 'monospace'],
   		}
   	}
   },
